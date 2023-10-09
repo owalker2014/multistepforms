@@ -11,7 +11,7 @@ class MotorGrader extends Component {
 
   questions = [
     {
-      page: 'Page 1',
+      page: 'General Appearance',
       questions: [
         'Paint',
 		'Sheet Metal (Fiberglass) Condition',
@@ -22,7 +22,7 @@ class MotorGrader extends Component {
       ],
     },
     {
-      page: 'Page 2',
+      page: 'Safety',
       questions: [
         'Travel Alarm',
         'Horn',
@@ -33,7 +33,7 @@ class MotorGrader extends Component {
       ],
     },
     {
-      page: 'Page 3',
+      page: 'Control Station',
       questions: [
         'Seats/Armrests',
 		'Mirrors',
@@ -51,7 +51,7 @@ class MotorGrader extends Component {
       ],
     },
 	{
-      page: 'Page 4',
+      page: 'Engine',
       questions: [
 	  'Emissions Label',
 	  'A/C Compressor',
@@ -68,7 +68,7 @@ class MotorGrader extends Component {
       ],
     },
 	{
-      page: 'Page 5',
+      page: 'Drivetrain',
       questions: [
 	  'Transmission', 
 	  'Right Drive Axle', 
@@ -77,7 +77,7 @@ class MotorGrader extends Component {
       ],
     },
 	{
-      page: 'Page 6',
+      page: 'Hydraulics',
       questions: [
 	  'Pump (Hydraulics)', 
 	  'Valves', 
@@ -96,7 +96,8 @@ class MotorGrader extends Component {
       ],
     },
 	{
-      page: 'Page 7',
+      page: 'Chassis',
+      comment: 'Pin connection pivot point wear inspections involve only visual, tactile assessments; no dial indicator tests are conducted.',
       questions: [
 	  'Y-Frame', 
 	  'Y-Frame Pivot Trunnion', 
@@ -128,7 +129,7 @@ class MotorGrader extends Component {
       ],
     },
 	{
-      page: 'Page 8',
+      page: 'Specialty',
       questions: [
 	  'Blade Condition', 
 	  'Blade Cutting Edge Condition', 

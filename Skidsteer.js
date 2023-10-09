@@ -11,7 +11,7 @@ class SkidSteer extends Component {
 
   questions = [
     {
-      page: 'Page 1',
+      page: 'General Appearance',
       questions: [
         'Sheet Metal (Fiberglass) Condition',
         'Paint',
@@ -22,7 +22,7 @@ class SkidSteer extends Component {
       ],
     },
     {
-      page: 'Page 2',
+      page: 'Safety',
       questions: [
         'Travel Alarm',
         'Horn',
@@ -33,7 +33,7 @@ class SkidSteer extends Component {
       ],
     },
     {
-      page: 'Page 3',
+      page: 'Control Station',
       questions: [
         'Mirrors',
         'Seats/Armrests',
@@ -49,7 +49,7 @@ class SkidSteer extends Component {
       ],
     },
 	{
-      page: 'Page 4',
+      page: 'Engine',
       questions: [
 	  'Blow-By (Subjective Observation)', 
 	  'Starter', 
@@ -64,7 +64,8 @@ class SkidSteer extends Component {
       ],
     },
 	{
-      page: 'Page 5',
+      page: 'Drivetrain',
+      comment: 'The operational test is limited to low-speed, load-free trials in a confined flat area. Full verification of differential interlocks, transmission shifting, and drive axle functionality isnt feasible. The inspector checks for abnormal noises, leaks, and physical damage.',
       questions: [
 	  'Transmission', 
 	  'Transfer Case/Drop Box', 
@@ -77,7 +78,7 @@ class SkidSteer extends Component {
       ],
     },
 	{
-      page: 'Page 6',
+      page: 'Hydraulics',
       questions: [
 	  'Pump (Hydraulics)', 
 	  'Valves', 
@@ -94,7 +95,8 @@ class SkidSteer extends Component {
       ],
     },
 	{
-      page: 'Page 7',
+      page: 'Chassis',
+      comment: 'Inspections for pivot point wear on pin connections are limited to visual and tactile observations; dial indicator testing is not conducted.',
       questions: [
 	  'Steering Linkage', 
 	  'Master Cylinder', 
@@ -107,12 +109,7 @@ class SkidSteer extends Component {
 	  'Right Front Tire', 
 	  'Wheel Condition', 
 	  'Wheel Studs, Nuts, Lugs',
-      ],
-    },
-	{
-      page: 'Page 8',
-      questions: [
-	  'Lift Arm Condition', 
+    'Lift Arm Condition', 
 	  'Chassis to Arm Pins', 
 	  'Tilt Linkage', 
 	  'Tilt Linkage Pins and Bushings', 
@@ -120,8 +117,9 @@ class SkidSteer extends Component {
 	  'Limited Function Check',
       ],
     },
+	
 	{
-      page: 'Page 9',
+      page: 'Specialty',
       questions: [
 	  'Boom Condition', 
 	  'Stick Condition', 
@@ -136,7 +134,7 @@ class SkidSteer extends Component {
       ],
     },
 	{
-      page: 'Page 10',
+      page: 'Rubber Track Undercarriage',
       questions: [
 	  'Loader Bucket Condition', 
 	  'Loader Bucket Edge/Shanks', 

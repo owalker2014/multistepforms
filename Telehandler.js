@@ -11,17 +11,17 @@ class Telehandler extends Component {
 
   questions = [
     {
-      page: 'Page 1',
+      page: 'General Appearance',
       questions: [
         'Paint',
-		'Sheet Metal (Fiberglass) Condition',
+		    'Sheet Metal (Fiberglass) Condition',
         'Steps/Ladder',
         'Hand Rails',
         'Exterior Lights',
       ],
     },
     {
-      page: 'Page 2',
+      page: 'Safety',
       questions: [
         'Travel Alarm',
         'Horn',
@@ -31,27 +31,27 @@ class Telehandler extends Component {
       ],
     },
     {
-      page: 'Page 3',
+      page: 'Control Station',
       questions: [
         'Seats/Armrests',
-		'Mirrors',
+		    'Mirrors',
         'Hydraulic Controls',
-		'Steering Controls',
+		    'Steering Controls',
         'Drivetrain Controls',
         'Transmission Disconnect Control',
         'Load Charts',
-		'Engine Oil Pressure',
+		    'Engine Oil Pressure',
         'Warning Lights',
-		'Gauges',
+		    'Gauges',
         'Hour Meter/Odometer',
-		'Limited Function Check (Control Station)',
+		    'Limited Function Check (Control Station)',
       ],
     },
 	{
-      page: 'Page 4',
+      page: 'Engine',
       questions: [
 	  'Emissions Label',
-	  'Blow-By (Subjecrive Observation)',
+	  'Blow-By (Subjective Observation)',
 	  'Starter', 
 	  'Exhaust System', 
 	  'Radiator', 
@@ -65,7 +65,7 @@ class Telehandler extends Component {
       ],
     },
 	{
-      page: 'Page 5',
+      page: 'Drivetrain',
       questions: [
 	  'Transmission', 
 	  'Transfer Case/Drop Box', 
@@ -78,7 +78,7 @@ class Telehandler extends Component {
       ],
     },
 	{
-      page: 'Page 6',
+      page: 'Hydraulics',
       questions: [
 	  'Pump (Hydraulics)', 
 	  'Valves', 
@@ -94,7 +94,7 @@ class Telehandler extends Component {
       ],
     },
 	{
-      page: 'Page 7',
+      page: 'Chassis',
       questions: [
 	  'Boom Condition', 
 	  'Left Side Boom', 
@@ -119,7 +119,7 @@ class Telehandler extends Component {
       ],
     },
 	{
-      page: 'Page 8',
+      page: 'Specialty',
       questions: [
 	  'Loader Quick Coupler', 
 	  'Load Back Rest', 

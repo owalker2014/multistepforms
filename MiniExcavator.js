@@ -11,7 +11,7 @@ class MiniExcavator extends Component {
 
   questions = [
     {
-      page: 'Page 1',
+      page: 'General Appearance',
       questions: [
         'CE Mark',
         'Paint',
@@ -22,7 +22,7 @@ class MiniExcavator extends Component {
       ],
     },
     {
-      page: 'Page 2',
+      page: 'Safety',
       questions: [
         'Travel Alarm',
         'Horn',
@@ -34,7 +34,7 @@ class MiniExcavator extends Component {
       ],
     },
     {
-      page: 'Page 3',
+      page: 'Control Station',
       questions: [
         'Seats/Armrests',
 		'Mirrors',
@@ -53,7 +53,7 @@ class MiniExcavator extends Component {
       ],
     },
 	{
-      page: 'Page 4',
+      page: 'Engine',
       questions: [
 	  'Emissions Label',
 	  'A/C Compressor',
@@ -69,7 +69,8 @@ class MiniExcavator extends Component {
       ],
     },
 	{
-      page: 'Page 5',
+      page: 'Drivetrain',
+      comment:'The operational test is confined to a low-speed, load-free evaluation in a flat area. Full verification of differential interlocks, transmission shifting, and drive axle functionality is not possible. The inspector checks for abnormal noises, observes leaks, and notes physical damage.',
       questions: [
 	  'Left Drive Motor', 
 	  'Right Drive Motor', 
@@ -79,7 +80,7 @@ class MiniExcavator extends Component {
       ],
     },
 	{
-      page: 'Page 6',
+      page: 'Hydraulics',
       questions: [
 	  'Pump (Hydraulics)', 
 	  'Valves', 
@@ -99,7 +100,8 @@ class MiniExcavator extends Component {
       ],
     },
 	{
-      page: 'Page 7',
+      page: 'Boom Condition',
+      comment: 'Inspections for pin connection pivot point wear are limited to visual and tactile assessments; dial indicator tests are not conducted.',
       questions: [
 	  'Boom Condition', 
 	  'Stick Condition', 
@@ -113,7 +115,7 @@ class MiniExcavator extends Component {
       ],
     },
 	{
-      page: 'Page 8',
+      page: 'Undercarriage',
       questions: [
 	  'Roller Frames', 
 	  'Grouse Height Measurement', 
@@ -127,7 +129,7 @@ class MiniExcavator extends Component {
       ],
     },
 	{
-      page: 'Page 9',
+      page: 'Specialty',
       questions: [
 	  'Excavator Bucket Condition', 
 	  'Teeth/Adapter', 
